@@ -4,6 +4,8 @@ Creates a [FastAPI](https://github.com/tiangolo/fastapi) bridge to [Home Assista
 
 Fork from [https://github.com/loganjohnlong/presence-light-ha-api](https://github.com/loganjohnlong/presence-light-ha-api). Instead of changing the color of a light, this fork just turns an entity (for example a switch, but might also be a light) on or off.
 
+If you are looking to pass along the actual Teams status to Home Assistant, please see [https://github.com/jeroenterheerdt/presence-status-ha-api](https://github.com/jeroenterheerdt/presence-status-ha-api).
+
 ## How to use
 
 1. Get a [Long-lived Access Token](https://www.atomicha.com/home-assistant-how-to-generate-long-lived-access-token-part-1/) from your Home Assistant installation
